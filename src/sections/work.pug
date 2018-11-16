@@ -1,0 +1,21 @@
+mixin work({sectionText, works, sectionText2, otherWorks, sectionText3} = {})
+	section.s-Work
+		p #{sectionText}
+		
+		each work in works
+			.s-Work_Item 
+				.s-Work_Text
+					h3 #{work.title}
+					p #{work.text}
+				.s-Work_Image
+		
+		p #{sectionText2}
+		
+		each otherWork in otherWorks
+			s-Work_Item 
+				.s-Work_Text
+					h3 #{otherWork.title}
+					p #{otherWork.text}
+				.s-Work_Image
+
+		p #{sectionText3}

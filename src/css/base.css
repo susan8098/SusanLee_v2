@@ -1,0 +1,51 @@
+@import 'fonts.css';
+
+/* Base */
+:root {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  --slight-gray: #F1F1F1;
+  --yellow: #FED158;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 15px;
+  font-size: 1.5em;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+main {
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1240px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 5.4rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+a {
+  color: darkred;
+
+}
