@@ -82,11 +82,11 @@ a:hover:after {
   .color-block {
     width: 30%;
     height: auto;
-    padding-top: 30vh;
+    padding-top: 23vh;
     text-align: right;
   }
   .text-block {
-    padding-top: 30vh;
+    padding-top: 23vh;
     margin-top: 0;
   }
 }
