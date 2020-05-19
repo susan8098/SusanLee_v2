@@ -49,9 +49,42 @@ a:hover:after {
   bottom: -2px;
 }
 
+.revealer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #b4ccc9;
+  z-index: 5;
+  animation: slideFadeIn 1s ease .5s forwards;
+}
+
+@keyframes slideFadeIn {
+  60% {
+    width: 30%;
+    z-index: 1;
+  }
+  100%{
+    width: 0;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
 
 .container {
   min-height: 100vh;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  animation: fadeIn .5s ease 1.2s forwards;
 }
 
 .color-block {
