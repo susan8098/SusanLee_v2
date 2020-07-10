@@ -115,11 +115,11 @@ a:hover:after {
   .color-block {
     width: 30%;
     height: auto;
-    padding-top: 23vh;
+    padding-top: 18vh;
     text-align: right;
   }
   .text-block {
-    padding-top: 23vh;
+    padding-top: 17vh;
     margin-top: 0;
   }
 }
