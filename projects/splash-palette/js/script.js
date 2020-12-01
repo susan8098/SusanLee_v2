@@ -24,7 +24,7 @@ app.getSelectedValues = function () {
 
 		//ajax call for downloading the image to server
 		$.ajax({
-			url: app.url + '/image-download.php',
+			url: app.url + 'image-download.php',
 			type: 'POST',
 			data: {
 				imageUrl: unsplashUrl
