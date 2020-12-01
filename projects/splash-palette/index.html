@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Splash Palette</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	
+	<header>
+
+		<div class="headerText">
+			<h1>Splash Palette</h1>
+			<h2>get colour palettes inspired from Unsplash photos</h2>
+		</div>
+
+		<div class="userSelect">
+			<form class="form-start" id="formstart">
+				<!-- Getting Photo Category -->
+				<fieldset class="startForm-fieldset">
+					<label for="photo-category">Inspire me with photos of</label>
+					<select name="photo-category" id="photo-category">
+						<option selected="selected">a category</option>
+						<option value="food">Food</option>
+						<option value="buildings">Buildings</option>
+						<option value="nature">Nature</option>
+						<option value="people">People</option>
+						<option value="technology">Technology</option>
+						<option value="objects">Objects</option>
+					</select>
+				</fieldset>
+				<!-- <input type="submit" value="Get me a photo!"> -->
+			</form>
+
+			<form class="form-color">
+				<input type="submit" value="Hit me a color Palette!">	
+			</form>
+		</div>
+
+		<div class="download">
+			<a href="images/photo.jpg" download="photo.jpg"><p><i class="fa fa-download"></i>download photo</p></a>
+		</div>
+	</header>
+	
+
+	<!-- Displaying Img -->
+	<div class="imgContainer">
+		<!-- <img id="myImage" src="images/nature.jpeg" alt=""> -->
+	</div>
+
+	<!-- Display Color Palette -->
+	<div class="palette">
+		<div class="colorBox colorBox1"><p class="colorLabel label1">Color 1</p></div>
+		<div class="colorBox colorBox2"><p class="colorLabel label2">Color 2</p></div>
+		<div class="colorBox colorBox3"><p class="colorLabel label3">Color 3</p></div>
+		<div class="colorBox colorBox4"><p class="colorLabel label4">Color 4</p></div>
+		<div class="colorBox colorBox5"><p class="colorLabel label5">Color 5</p></div>	
+	</div>
+
+	<footer>
+		<p>Made with <a href="http://unsplash.com" target="_blank">Unsplash</a> & <a href="http://lokeshdhakar.com/projects/color-thief/" target="_blank">Color Thief JS</a> / By <a href="http://hellosusan.io" target="_blank">Susan Lee</a></p>
+	</footer>
+	
+	<!-- ***** JS  ***** -->
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Quantize -->
+	<script src="js/quantize/quantize.js"></script>
+	<!-- Color Thief -->
+	<script src="js/color-thief-master/src/color-thief.js"></script>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>
