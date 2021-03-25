@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 
 body {
   background-color: #f4f4f4;
@@ -16,7 +19,7 @@ p, li {
   font-family: 'Cardo', sans-serif;
   line-height: 1.6;
   letter-spacing: .6px;
-  font-size: 23px;
+  font-size: 2.2rem;
   max-width: 800px;
 }
 
@@ -26,7 +29,7 @@ ul, li {
 }
 
 a {
-  color: #ae7c23;
+  color: #9d6e1a;
   /* font-weight: 700; */
   text-decoration: none;
   position: relative;
@@ -119,13 +122,28 @@ a:hover:after {
     text-align: right;
   }
   .text-block {
-    padding-top: 17vh;
+    padding-top: 15vh;
     margin-top: 0;
   }
 }
 
 @media (min-width: 1080px) {
+  .color-block {
+    padding-top: 16vh;
+  }
   .color-block img {
-    width: 230px;
+    width: 220px;
+  }
+}
+
+@media (min-height: 840px) {
+  .color-block {
+    padding-top: 19vh;
+  }
+  .text-block {
+    padding-top: 20vh;
+  }
+  .color-block img {
+    width: 250px;
   }
 }
